@@ -1,0 +1,262 @@
+body {
+    background-color: #f5f3f3;
+    font-family: 'Assistant', sans-serif;
+    color: #071c4d;
+}
+
+// * Navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071c4d;
+
+            &.active {
+                font-weight: bold;
+                color: #071c4d !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #000291;
+    color: #fff;
+
+    &:hover {
+        background-color: #2d57b9;
+        color: #fff;
+    }
+}
+
+// * Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url(../images/header/header.jpg);
+    background-size: cover;
+
+    h1,
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bolder;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #000291;
+        color: #fff;
+
+        &:hover {
+            background-color: #2d57b9;
+            color: #fff;
+        }
+    }
+}
+
+
+// statistic
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        color: #010d4c;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// populer
+.section-popular {
+    min-height: 540px;
+    background-color: #051334;
+    margin-top: -50px;
+    margin-bottom: -200px;
+
+    .section-popular-heading {
+        margin-top: 135px;
+
+        h2,
+        p {
+            color: #fff;
+        }
+
+        h2 {
+            font-family: 'Play Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+}
+
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 380px;
+            background-color: #949292;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country {
+            font-size: 18px;
+            color: #0e0d0d;
+            font-weight: bold;
+        }
+
+        .travel-location {
+            font-size: 26px;
+            color: #180e0e;
+            font-weight: bold;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: #000291;
+                color: #fff;
+
+                &:hover {
+                    background-color: #2d57b9;
+                    color: #fff;
+                }
+            }
+        }
+
+
+    }
+}
+
+.section-networks {
+    background-color: #fff;
+    margin-top: -150px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+
+    img {
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 50px;
+    }
+}
+
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 380px;
+        }
+
+        h3 {
+            font-size: 22px;
+        }
+
+        .testimonial {
+            font-weight: 200;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 150px;
+        }
+
+        .trip-to {
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #000291;
+        color: #fff;
+
+        &:hover {
+            background-color: #2d57b9;
+            color: #fff;
+        }
+    }
+
+    .btn-need-help {
+        background-color: #b4b0b0;
+        color: #f3f3f3;
+
+        &:hover {
+            background-color: #cfc7c7;
+            color: #f3f3f3;
+        }
+    }
+}
+
+.section-footer {
+    a {
+        color: #071c4d;
+        font-weight: bold;
+
+    }
+}
